@@ -4,7 +4,7 @@ describe("Validate Login Form", () => {
     cy.visit("http://template3.booost.bg/");
   });
 
-  it("Have visible login form", () => {
+  it("Should have visible login form", () => {
     cy.get("[data-cy=login-form] > .form").should(
       "have.css",
       "visibility",
